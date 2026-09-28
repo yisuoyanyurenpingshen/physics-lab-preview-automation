@@ -1,0 +1,20 @@
+# ===== 敏感信息：绝对不要提交 =====
+config.sh
+.cache/
+*.token
+env.sh
+
+# ===== 运行产物 =====
+*.pdf
+*.png
+*.jpg
+*.log
+*.txt.tmp
+click*.js
+records.txt
+attempts.json
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+node_modules/

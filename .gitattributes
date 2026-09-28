@@ -1,0 +1,11 @@
+# 统一换行符：脚本用 LF，避免在 Windows 上 checkout 出 CRLF 后 shebang 失效
+* text=auto eol=lf
+*.sh    text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+
+# 二进制
+*.pdf   binary
+*.png   binary
+*.jpg   binary
