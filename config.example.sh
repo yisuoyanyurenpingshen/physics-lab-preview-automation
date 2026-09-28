@@ -10,7 +10,7 @@ export SITE_BASE="http://172.25.75.220"
 
 # 你的账号与密码
 # 注意：也可以用环境变量临时传入，例如
-#   SITE_USER=2025280019 SITE_PASSWORD=xxx bash scripts/run_all.sh
+#   SITE_USER=<你的学号> SITE_PASSWORD=<你的密码> bash scripts/run_all.sh
 export SITE_USER="你的学号"
 export SITE_PASSWORD="你的密码"
 
